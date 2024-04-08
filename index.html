@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+</head>
+
+<body>
+  <h1 id="level-title">Press SPACE Key to Start</h1>
+  <p id="high-score">High Score: 0</p>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <button id = "how-to-play">How to Play</button>
+
+  <div id="rules-container">
+
+    <ul>
+    
+    <li>
+      <p class="rules-p" id="rules-p1">
+        Firstly, the game shows the first colour in the sequence <span id="say-blue">(say blue)</span>. Then you should click on the blue button.
+      </p>
+    </li>
+
+    <li>
+      <p class="rules-p" id="rules-p2">
+        Next, the game shows the next colour <span id="say-red">(say red)</span>, then you have to remember the sequence is blue, red and so on and so forth.
+      </p>
+    </li>
+
+    <li>
+      <p class="rules-p" id="rules-p3">
+        If you mess up the sequence, then the game ends.
+      </p>
+    </li>
+
+  </ul>
+
+  </div>
+
+  <div class="footer">
+    <p>Made by : Divyansh Pankaj Mishra</p>
+    <div class="social-icons">
+      <a href="https://github.com/slingggshottt" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/slingggshottt" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/slingggshottt" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="mailto:divyansh.p.m.126@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="game.js"></script>
+</body>
+
+</html>
